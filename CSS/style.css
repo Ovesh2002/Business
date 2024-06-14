@@ -1,0 +1,321 @@
+.slidder_wrapper .carousel-item img{ height: 700px;}
+.welcome_wrapper{
+	padding-top: 60px;
+}
+.slidder_wrapper img{
+	position: relative;
+	margin-bottom: 25px;
+}
+.slider_overlay{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.navbar_wrapper .navbar-collapse{
+	flex: none;
+}
+
+.service_wrapper{
+	background-image: url("../images/service_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.service_overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 60px 0;
+}
+.service_block{
+	text-align: center;
+	padding-top: 20PX;
+}
+.progress_wrapper{
+	background-image: url("../images/progrees_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+
+}
+.progress_wrapper .progress_bar_image{
+	padding-top:70px;
+}
+.progress_wrapper .progress_bars {
+	padding-top:90px;
+}
+.progress_wrapper .progress_bars h5{
+	padding-top: 20px;
+}
+
+.gallery_wrapper .gallery_button {
+		margin-top: 50px;
+ 		margin-bottom: 50px;
+}
+.gallery_wrapper .gallery_button button{
+	padding-left:50px ;
+	padding-right:50px ;
+}
+.gallery_wrapper {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.gallery_wrapper .gallery_rm_button button{
+	padding:10px 50px;
+	
+}
+
+
+.milestone_wrappper {
+	background-image: url("../images/blog_img3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.milestone_overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 60px 0;
+}
+.milestone_wrappper .milestone_box {
+	padding-top: 60px ;
+	text-align: center;
+}
+.milestone_wrappper .milestone_box h2 {
+	border: 2px solid black;
+	background-color: black;
+	padding: 48px 86px;
+	margin: -29px 5px;
+	color: rgba(0, 255, 126, 1);
+}
+.milestone_wrappper .milestone_box h3 {
+	color: rgba(0, 255, 126, 1);
+} 
+
+.price_wrappper {
+	padding:60px 0;
+	text-align: center;
+}
+.price_para span{
+	position: relative;
+}
+.price_para span:before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: lightgreen;
+	    left: -105px;
+    top: 10px;
+}
+.price_para span:after{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: lightgreen;
+	    right: -105px;
+    top: 10px;
+}
+.price_wrappper .price_box{
+	padding: 40px 0;
+}
+.price_wrappper .price_box h4{
+	padding-bottom: 60px;
+}
+.price_wrappper .price_box h2{
+	padding-bottom: 60px;
+}
+.price_wrappper .price_box li{
+	padding-bottom: 15px;
+	text-align: left;
+	margin-left: 140px;
+	list-style-type: none;
+}
+.price_wrappper .price_box span{
+	color:green;
+	padding-right: 8px;
+}
+
+.blog_wrapper .blog_para {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.blog_wrapper {
+	background-image: url(../images/blog_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.blog_overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 60px 0;
+}
+
+.blog_wrapper .blog_box {
+	text-align: center;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.blog_wrapper .item h5{
+	color: lightgreen;
+}
+
+.blog_wrapper .item h6 span{
+ padding-left: 160px;
+}
+.blog_wrapper .item h4{
+	text-align: center;
+	border: 1px solid green;
+	width: 100px;
+	margin: 2px 150px;
+    padding: 4px 36px;
+    background-color: lightgreen;
+    box-shadow: 0 4px 8px 0 white;
+    border-radius: 10px;
+}
+
+.partner_wrapper {
+	text-align: center;
+	padding: 50px 50px;
+}
+
+.news_wrapper {
+	background-image: url(../images/newslatter_img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.news_overlay{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 60px 0;
+}
+.news_wrapper .navbar-brand{
+	padding-left: 200px;
+	font-size: 40px;
+	font-variant: small-caps;
+}
+.news_wrapper .btn{
+		margin-right: 	200px
+}
+
+
+.fotter_wrapper {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.fotter_overlay{
+	background-color:black;
+	padding: 60px 0;
+}
+.fotter_wrapper .fotter_head {
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255,255,255,0.19);
+}
+.fotter_wrapper .fotter_midbox{
+	 padding-top: 50px;
+}
+.fotter_wrapper .fotter_midbox p{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.fotter_wrapper .fotter_midbox a{
+	color: lightgreen;
+	text-decoration: none;
+}
+.fotter_wrapper .fotter_midbox ul{
+	list-style-type: none;
+	margin: 0;
+	padding:25px 0;
+	line-height:200%;
+}
+.fotter_wrapper .fotter_midbox span{
+	margin-right: 10px;
+	color: lightgreen;
+}
+.fotter_wrapper .fotter_low {
+	border-top: 1px solid rgba(255,255,255,0.19);
+	padding: 20px 0;
+}
+.fotter_wrapper .fotter_low p{
+	margin-bottom: 0;
+	padding-top: 25px;
+}
+.list-inline li+li {
+  margin-left: 30px;
+}
+.list-inline li a {
+  color: #ffffff;
+  position: relative;
+}
+.list-inline li a:after {
+  position: absolute;
+  content: '';
+  color: #ffffff;
+  display: inline-block;
+  top: 0;
+  right: -18px;
+}
+.list-inline li+li a:after {
+  display: none;
+}
+
+.welcome_para span{
+	margin-left: 100px;
+	position: relative;
+}
+.welcome2{
+	padding: 60px 0;
+}
+.welcome_para span:before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: lightgreen;
+	left: -105px;
+  top: -24px;
+}
+.welcome_para span:after{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: lightgreen;
+	    right: -105px;
+    top: -24px;
+}
+
+.service_para  span{
+	position: relative;
+	margin-bottom: 50px;
+}
+.service_para span:before{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: lightgreen;
+	left: -105px;
+	top: -1px;
+}
+.service_para span:after{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: lightgreen;
+	right: -105px;
+	top: -1px;
+}
+.service_block h3 {
+	color: lightgreen;
+}
